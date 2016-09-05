@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>index</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+<link href="all.css" rel="stylesheet"></head>
+<body>
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="imgs/2.JPG"/>
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/1.JPG"/>
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/3.JPG"/>
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/4.JPG"/>
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/5.JPG"/>
+			</div>
+			<div class="swiper-slide">
+				<img src="imgs/6.JPG"/>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../bower_components/Swiper/dist/js/swiper.min.js"></script>
+	<script type="text/javascript">
+		new Swiper(".swiper-container", {
+			direction: "horizontal", //horizontal横屏  vertical竖屏
+			pagination: ".swiper-pagination"
+		})
+	</script>
+<script type="text/javascript" src="all.js"></script></body>
+</html>
